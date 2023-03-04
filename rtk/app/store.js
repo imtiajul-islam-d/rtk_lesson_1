@@ -7,4 +7,4 @@ const store = configureStore({
     counter: counterReducer,
   },
 });
-module.export = store;
+module.exports = store;
