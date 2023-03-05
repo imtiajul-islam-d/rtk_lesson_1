@@ -15,6 +15,11 @@ const dynamicCounterSlice = createSlice({
       state.count -= action.payload;
     },
   },
+  extraReducers: {
+    ["counter/increment"]: (state, action) => {
+      state.count += 1;
+    },
+  },
 });
 
 module.exports = dynamicCounterSlice.reducer;
