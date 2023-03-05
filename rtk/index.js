@@ -3,10 +3,10 @@ const {counterActions} = require("./features/counter/counterSlice");
 const { dynamicCounterAction } = require("./features/dynamicCounter/dynamicCounterSlice");
 
 // initial state
-console.log(`Initial State: ${JSON.stringify(store.getState())}`);
+// console.log(`Initial State: ${JSON.stringify(store.getState())}`);
 // subscribe to state changes
 store.subscribe(() => {
-    console.log(store.getState());
+    // console.log(store.getState());
 });
 
 
